@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/txtID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Código Identificador" />
+
+    <EditText
+        android:id="@+id/txtValor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Valor"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/txtTaxaConveniencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Taxa de Conveniência"
+        android:inputType="numberDecimal" />
+
+    <Switch
+        android:id="@+id/swtVip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingresso VIP" />
+
+    <EditText
+        android:id="@+id/txtuncaoDesempenhada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Função Desempenhada"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btnComprar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comprar" />
+
+</LinearLayout>
